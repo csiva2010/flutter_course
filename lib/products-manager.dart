@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import './products.dart';
 class ProductManagers extends StatefulWidget {
 final String startingProduct;
-ProductManagers({this.startingProduct});
+ProductManagers({this.startingProduct = 'Sweat'});
 
   @override
     State<StatefulWidget> createState() {
