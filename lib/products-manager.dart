@@ -27,6 +27,7 @@ class _ProductManagerState extends State<ProductManagers> {
         children: [Container(
           margin: EdgeInsets.all(10.0),
           child: RaisedButton(
+            color: Theme.of(context).primaryColor,
             onPressed: () {
               setState(() {
                 _products.add('Advanced Coffee');
